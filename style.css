@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+   font-family: 'Open Sans', sans-serif;;
+   background-color: black;
+}
+
+.conteiner-important {
+    box-sizing: border-box;
+}
+
+.card {
+    position: relative;
+    border-radius: 25px;
+    background-image: url(soul-fighter-samira_m8d4.1280.webp);
+    width: 400px;
+    height: 500px;
+    background-size: cover;
+    background-position-x: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    overflow: hidden; 
+    transition: opacity 0.8s;
+}
+
+.button-save {
+    position: absolute;
+    top: -60px;
+    right: 40px;
+    color: white;
+    background-color: red;
+    padding: 15px;
+    border-radius: 25px;
+    transition: top 1.2s;;
+}
+
+.bot-conteiners {
+    position: absolute;
+    bottom: -100px;
+    right: 15px;
+    width: 370px;
+    height: 100px;
+    border-radius: 15px;
+    text-align: center;
+    transition: bottom 1.2s;
+    background-color: unset;
+}
+
+.frame {
+    background-color: white;
+    color: black;
+    display: inline-block;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 30px;
+    transition: opacity 0.5s
+}
+
+.share {
+    background-color: white;
+    color: black;
+    display: inline-block;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 30px;
+    transition: opacity 0.5s
+}
+
+
+.ellipsis {
+    background-color: white;
+    color: black;
+    display: inline-block;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 30px;
+    transition: opacity 0.5s
+}
+
+.card:hover .button-save{
+    top: 30px;
+}
+
+.button-save:hover {
+    opacity: 0.7;
+}
+
+.card:hover .bot-conteiners {
+     bottom: 10px;
+}
+
+.ellipsis:hover , .frame:hover , .share:hover {
+    opacity: 0.7;
+}
+
+.card:hover {
+    opacity: 0.6;
+}
